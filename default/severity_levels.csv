@@ -1,6 +1,0 @@
-severity,severity_level,color,priority,action
-critical,Critical - Immediate Action Required,red,100,immediate_action
-high,High - Action Required Within 24 Hours,orange,80,prompt_action
-medium,Medium - Action Required Within 1 Week,yellow,60,scheduled_action
-low,Low - Review and Plan Action,blue,40,review_action
-info,Informational Only,green,20,monitor_only
