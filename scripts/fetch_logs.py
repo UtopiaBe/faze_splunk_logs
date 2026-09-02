@@ -8,8 +8,11 @@ import os
 import sys
 import json
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
+
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 try:
     from dotenv import load_dotenv
@@ -84,19 +87,43 @@ def fetch_logs(api_key: str, api_url: str = "https://api.faze.security", verify_
 
             # Output logs
             for vuln in vulns:
+                # Handle different response formats (string vs dict)
+                if isinstance(vuln, str):
+                    vulnerability_id = vuln
+                    vuln_type = None
+                    severity = None
+                    title = vuln
+                    description = None
+                    cve_id = None
+                    cvss_score = None
+                    target = None
+                    remediation = None
+                elif isinstance(vuln, dict):
+                    vulnerability_id = vuln.get("id")
+                    vuln_type = vuln.get("type")
+                    severity = vuln.get("severity")
+                    title = vuln.get("title")
+                    description = vuln.get("description")
+                    cve_id = vuln.get("cve_id")
+                    cvss_score = vuln.get("cvss_score")
+                    target = vuln.get("target")
+                    remediation = vuln.get("remediation")
+                else:
+                    continue
+
                 log_entry = {
-                    "timestamp": datetime.utcnow().isoformat(),
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
                     "asset_id": asset_id,
                     "asset_name": asset_name,
-                    "vulnerability_id": vuln.get("id"),
-                    "type": vuln.get("type"),
-                    "severity": vuln.get("severity"),
-                    "title": vuln.get("title"),
-                    "description": vuln.get("description"),
-                    "cve_id": vuln.get("cve_id"),
-                    "cvss_score": vuln.get("cvss_score"),
-                    "target": vuln.get("target"),
-                    "remediation": vuln.get("remediation"),
+                    "vulnerability_id": vulnerability_id,
+                    "type": vuln_type,
+                    "severity": severity,
+                    "title": title,
+                    "description": description,
+                    "cve_id": cve_id,
+                    "cvss_score": cvss_score,
+                    "target": target,
+                    "remediation": remediation,
                 }
                 print(json.dumps(log_entry))
 

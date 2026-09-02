@@ -1,0 +1,145 @@
+﻿python : ⚠️  WARNING: SSL verification disabled
+At line:1 char:302
++ ... tch {} } }; python fetch_all_assets_vulns.py > all_assets.jsonl 2>&1; ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (⚠️  WARNING: SSL verification disabled:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Fetching all assets from GetAllAssets...
+  Using art_id: 1000
+✓ Found 121 assets
+  Progress: 10/121 assets processed
+  Progress: 20/121 assets processed
+  Progress: 30/121 assets processed
+  Progress: 40/121 assets processed
+{"timestamp": "2026-09-02T10:37:22.309274+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1000, "asset_name": "www.discountbank.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309308+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1001, "asset_name": "tdm-test.discountbank.co.il", "tags": ["KiteWorks", "Stage"]}
+{"timestamp": "2026-09-02T10:37:22.309320+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1002, "asset_name": "mortgage.mercantile.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309329+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1003, "asset_name": "www.discountech.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309336+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1004, "asset_name": "mortgage.discountbank.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309343+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1005, "asset_name": "www.mafteach.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309349+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1006, "asset_name": "www.dcapital.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309354+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1007, "asset_name": "tdm.discountbank.co.il", "tags": ["Prod", "KiteWorks"]}
+{"timestamp": "2026-09-02T10:37:22.309360+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1008, "asset_name": "investors.discountbank.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309366+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1009, "asset_name": "www.mercantile.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309380+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1010, "asset_name": "www.hadiscontaim.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309387+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1011, "asset_name": "www.openbanking.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309393+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1012, "asset_name": "www.mercantilesmile.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309398+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1013, "asset_name": "www.tdih.co.il", "tags": ["Prod"]}
+{"timestamp": "2026-09-02T10:37:22.309404+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1014, "asset_name": "www.dvaad.co.il", "tags": ["Critical"]}
+{"timestamp": "2026-09-02T10:37:22.309410+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1015, "asset_name": "start.telebank.co.il", "tags": ["Prod", "Critical"]}
+{"timestamp": "2026-09-02T10:37:22.309416+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1016, "asset_name": "mks.start.telebank.co.il", "tags": ["Make Sense"]}
+{"timestamp": "2026-09-02T10:37:22.309421+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1017, "asset_name": "dvaad.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309427+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1018, "asset_name": "autodiscover.dcapital.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309433+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1019, "asset_name": "enterpriseenrollment.dcapital.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309447+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1020, "asset_name": "enterpriseregistration.dcapital.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309453+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1021, "asset_name": "mtradecel.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309459+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1022, "asset_name": "links.business.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309464+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1023, "asset_name": "tradeprxext.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309470+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1024, "asset_name": "qp.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309475+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1025, "asset_name": "mtls-api-nonprod.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309481+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1026, "asset_name": "openaccount.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309486+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1027, "asset_name": "ezbobbackoffice.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309492+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1028, "asset_name": "links.private.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309497+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1029, "asset_name": "mtls-api.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309506+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1030, "asset_name": "openaccount.stage.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309512+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1031, "asset_name": "platformshared.stage.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309518+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1032, "asset_name": "platformshared.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309523+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1033, "asset_name": "api-nonprod.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309529+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1034, "asset_name": "api.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309534+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1035, "asset_name": "ezbobbackoffice.stage.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309540+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1036, "asset_name": "links.business.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309545+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1037, "asset_name": "qp.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309551+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1038, "asset_name": "rasoft.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309557+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1039, "asset_name": "toftt.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309568+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1040, "asset_name": "statica.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309577+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1041, "asset_name": "papp.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309586+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1042, "asset_name": "s2s.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309594+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1043, "asset_name": "app.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309603+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1044, "asset_name": "api.discountbank.co.il", "tags": []}
+  Progress: 50/121 assets processed
+  Progress: 60/121 assets processed
+  Progress: 70/121 assets processed
+  Progress: 80/121 assets processed
+{"timestamp": "2026-09-02T10:37:22.309612+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1045, "asset_name": "smbcredit.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309790+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1046, "asset_name": "rasint.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309813+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1047, "asset_name": "iclass.discountbank.co.il", "tags": []}
+  Progress: 90/121 assets processed
+{"timestamp": "2026-09-02T10:37:22.309821+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1048, "asset_name": "cloud.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309827+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1049, "asset_name": "s2s.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309857+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1050, "asset_name": "openaccount.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309865+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1051, "asset_name": "dtradecel.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309870+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1052, "asset_name": "platformstatic.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309876+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1053, "asset_name": "openaccount.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309882+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1054, "asset_name": "ttradecel.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309888+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1055, "asset_name": "eforms-dev.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309893+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1056, "asset_name": "auth.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309899+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1057, "asset_name": "urbanrenewal.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309905+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1058, "asset_name": "mtls-api.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309910+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1059, "asset_name": "eforms.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309922+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1060, "asset_name": "devapp.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309928+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1061, "asset_name": "urbanrenewal.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309933+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1062, "asset_name": "platformstatic.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309939+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1063, "asset_name": "api-nonprod.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309944+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1064, "asset_name": "ezbobbackoffice.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309949+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1065, "asset_name": "mtls-api-nonprod.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309954+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1066, "asset_name": "analytics.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309959+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1067, "asset_name": "platformshared.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309965+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1068, "asset_name": "platformshared.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309970+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1069, "asset_name": "labapp.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309982+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1070, "asset_name": "ruxit.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309988+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1071, "asset_name": "devlab.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309993+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1072, "asset_name": "ezbobbackoffice.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.309998+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1073, "asset_name": "tradeprxext.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310004+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1074, "asset_name": "tradeprxextt.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310009+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1075, "asset_name": "links.private.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310014+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1076, "asset_name": "links.web.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310019+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1077, "asset_name": "smbcredit.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310026+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1078, "asset_name": "sdocs.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310031+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1079, "asset_name": "links.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310040+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1080, "asset_name": "ras.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310046+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1081, "asset_name": "qp-stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310051+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1082, "asset_name": "developer-nonprod.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310056+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1083, "asset_name": "developer.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310062+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1084, "asset_name": "investorsc.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310068+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1085, "asset_name": "mortgagec.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310073+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1086, "asset_name": "cdn.updates.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310078+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1087, "asset_name": "web.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310084+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1088, "asset_name": "sme.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310089+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1089, "asset_name": "investorsa.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310100+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1090, "asset_name": "data.updates.discountbank.co.il", "tags": []}
+  Progress: 100/121 assets processed
+  Progress: 110/121 assets processed
+  Progress: 120/121 assets processed
+
+✓ Complete! Fetched 121 assets with 0 total vulnerabilities
+{"timestamp": "2026-09-02T10:37:22.310105+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1091, "asset_name": "updates.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310288+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1092, "asset_name": "mortgagea.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310308+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1093, "asset_name": "mobile.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310317+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1094, "asset_name": "uatc.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310323+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1095, "asset_name": "corporate-docs.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310329+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1096, "asset_name": "mortgageb.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310334+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1097, "asset_name": "uata.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310340+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1098, "asset_name": "mobile.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310345+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1099, "asset_name": "uata.stage.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310369+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1100, "asset_name": "uatc.stage.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310376+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1101, "asset_name": "sme.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310382+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1102, "asset_name": "mortgage.stage.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310387+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1103, "asset_name": "redirector.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310393+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1104, "asset_name": "mortgagea.stage.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310398+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1105, "asset_name": "mortgageb.stage.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310404+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1106, "asset_name": "mortgagec.stage.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310409+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1107, "asset_name": "arvutnadlan.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310414+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1108, "asset_name": "arvutnadlan.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310419+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1109, "asset_name": "p.eforms.mercantile.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310430+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1110, "asset_name": "uata.stage.discountech.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310436+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1111, "asset_name": "uatc.stage.discountech.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310441+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1112, "asset_name": "uatc.stage.hadiscontaim.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310446+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1113, "asset_name": "uata.stage.hadiscontaim.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310451+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1114, "asset_name": "uata.stage.openbanking.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310457+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1115, "asset_name": "uatc.stage.openbanking.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310462+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1116, "asset_name": "uata.stage.tdih.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310467+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1117, "asset_name": "qp.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310472+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1118, "asset_name": "mortgage.stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310478+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1119, "asset_name": "stage.discountbank.co.il", "tags": []}
+{"timestamp": "2026-09-02T10:37:22.310489+00:00", "event_type": "asset", "sourcetype": "faze:asset", "asset_id": 1120, "asset_name": "api-tenant-nonprod.discountbank.co.il", "tags": []}
