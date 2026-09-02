@@ -20,13 +20,18 @@ except ImportError:
     pass
 
 
-def fetch_logs(api_key: str, api_url: str = "https://api.faze.security") -> None:
+def fetch_logs(api_key: str, api_url: str = "https://api.faze.security", verify_ssl: bool = True) -> None:
     """Fetch and display logs from FAZE API"""
 
     if not api_key:
         print("Error: API key not provided")
         print("Usage: FAZE_API_KEY='your_key' python3 fetch_logs.py")
         sys.exit(1)
+
+    # Check for SSL verification disable
+    if os.getenv("DISABLE_SSL_VERIFY") or os.getenv("FAZE_DISABLE_SSL"):
+        verify_ssl = False
+        print("⚠️  WARNING: SSL verification disabled", file=sys.stderr)
 
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -35,6 +40,7 @@ def fetch_logs(api_key: str, api_url: str = "https://api.faze.security") -> None
 
     session = requests.Session()
     session.headers.update(headers)
+    session.verify = verify_ssl
 
     try:
         # Fetch assets
