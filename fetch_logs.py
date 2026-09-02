@@ -9,6 +9,15 @@ import sys
 import json
 import requests
 from datetime import datetime
+from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+    env_path = Path(__file__).parent / ".env"
+    if env_path.exists():
+        load_dotenv(env_path)
+except ImportError:
+    pass
 
 
 def fetch_logs(api_key: str, api_url: str = "https://api.faze.security") -> None:
