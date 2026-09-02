@@ -57,8 +57,15 @@ def fetch_logs(api_key: str, api_url: str = "https://api.faze.security", verify_
 
         # Fetch vulnerabilities for each asset
         for asset in assets:
-            asset_id = asset.get("id") or asset.get("asset_id")
-            asset_name = asset.get("name") or asset.get("asset_name", "Unknown")
+            # Handle different response formats
+            if isinstance(asset, str):
+                asset_id = asset
+                asset_name = asset
+            elif isinstance(asset, dict):
+                asset_id = asset.get("id") or asset.get("asset_id")
+                asset_name = asset.get("name") or asset.get("asset_name", "Unknown")
+            else:
+                continue
 
             if not asset_id:
                 continue
