@@ -9,7 +9,7 @@ import sys
 import json
 import time
 import random
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from enum import Enum
 
@@ -17,9 +17,15 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 try:
     from dotenv import load_dotenv
-    env_path = Path(__file__).parent.parent / ".env"
-    if env_path.exists():
-        load_dotenv(env_path)
+    # Look for .env in config/ or parent directories
+    for env_path in [
+        Path(__file__).parent.parent.parent / "config" / ".env",
+        Path(__file__).parent.parent / ".env",
+        Path(__file__).parent / ".env",
+    ]:
+        if env_path.exists():
+            load_dotenv(env_path)
+            break
 except ImportError:
     pass
 
@@ -92,7 +98,7 @@ class RedTeamVulnerabilityGenerator:
             random.uniform(severity.cvss_min, severity.cvss_max), 1
         )
 
-        timestamp = datetime.utcnow() - timedelta(
+        timestamp = datetime.now(timezone.utc) - timedelta(
             minutes=random.randint(0, 1440)
         )
 
