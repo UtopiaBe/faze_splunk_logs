@@ -1,0 +1,6 @@
+﻿include README.md
+recursive-include bin *.py
+recursive-include default *.conf
+recursive-include default *.xml
+recursive-include metadata *.meta
+recursive-include static *

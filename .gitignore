@@ -1,0 +1,52 @@
+﻿# Credentials & Secrets
+.env
+.env.local
+.env.*.local
+config/.env
+config/.env.*
+
+# API Keys & Tokens
+*_secret*
+*_token*
+*_key*
+*_credentials*
+*_password*
+*.key
+*.pem
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Splunk
+local/
+metadata/local/
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Don't ignore these common patterns if they contain secrets:
+# output/  <- May contain API responses
+# .env.example <- Example file (OK to commit)

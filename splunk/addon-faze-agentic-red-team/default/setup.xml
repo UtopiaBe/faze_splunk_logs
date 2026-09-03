@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<setup>
+    <block title="FAZE Agentic Red Team Add-on Setup" endpoint="faze_agentic_red_team">
+        <text>
+            <label>Configure the FAZE Agentic Red Team Add-on to fetch vulnerability data from FAZE Security API.</label>
+        </text>
+
+        <!-- API Configuration -->
+        <fieldset submitButton="true" title="API Configuration">
+            <field name="api_key" required="true">
+                <label>FAZE API Key</label>
+                <type>password</type>
+                <help>Your FAZE Security API key for authentication</help>
+            </field>
+
+            <field name="art_id" required="false">
+                <label>Agentic Red Team ID</label>
+                <type>text</type>
+                <defaultValue>1000</defaultValue>
+                <help>ART ID to fetch vulnerabilities for (default: 1000)</help>
+            </field>
+
+            <field name="dedup_vulns" required="false">
+                <label>Enable Deduplication</label>
+                <type>checkbox</type>
+                <options>
+                    <opt value="true">Remove duplicate vulnerabilities per asset</opt>
+                </options>
+                <help>When enabled, shows only first occurrence of vulnerability per asset (reduces by ~37%)</help>
+            </field>
+        </fieldset>
+
+        <!-- Splunk Configuration -->
+        <fieldset submitButton="true" title="Splunk Configuration">
+            <field name="index" required="false">
+                <label>Target Index</label>
+                <type>text</type>
+                <defaultValue>security</defaultValue>
+                <help>Splunk index where events will be indexed (default: security)</help>
+            </field>
+
+            <field name="interval" required="false">
+                <label>Fetch Interval (seconds)</label>
+                <type>text</type>
+                <defaultValue>21600</defaultValue>
+                <help>How often to fetch data (default: 21600 = 6 hours)</help>
+            </field>
+
+            <field name="sourcetype" required="false">
+                <label>Source Type</label>
+                <type>text</type>
+                <defaultValue>faze:agentic_red_team</defaultValue>
+                <help>Sourcetype for events (default: faze:agentic_red_team)</help>
+            </field>
+        </fieldset>
+
+        <!-- Advanced Options -->
+        <fieldset submitButton="true" title="Advanced Options">
+            <field name="log_level" required="false">
+                <label>Log Level</label>
+                <type>dropdown</type>
+                <options>
+                    <opt value="debug">Debug</opt>
+                    <opt value="info" selected="true">Info</opt>
+                    <opt value="warn">Warning</opt>
+                    <opt value="error">Error</opt>
+                </options>
+                <help>Logging verbosity level</help>
+            </field>
+
+            <field name="timeout" required="false">
+                <label>API Timeout (seconds)</label>
+                <type>text</type>
+                <defaultValue>30</defaultValue>
+                <help>API request timeout (default: 30 seconds)</help>
+            </field>
+
+            <field name="enabled" required="false">
+                <label>Enable Input</label>
+                <type>checkbox</type>
+                <options>
+                    <opt value="true" selected="true">Enable this data input</opt>
+                </options>
+                <help>Enable or disable the data input</help>
+            </field>
+        </fieldset>
+    </block>
+</setup>

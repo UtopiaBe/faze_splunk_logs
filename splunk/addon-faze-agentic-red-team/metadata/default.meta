@@ -1,0 +1,21 @@
+﻿[];
+
+[props]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[inputs]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[transforms]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[app]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[faze:agentic_red_team]
+access = read : [ * ], write : [ admin ]
+export = system
