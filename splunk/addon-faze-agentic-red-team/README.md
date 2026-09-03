@@ -31,7 +31,7 @@ cp -r addon-faze-agentic-red-team $SPLUNK_HOME/etc/deployment-apps/
 
 **Option A: Environment Variables**
 ```bash
-export FAZE_API_KEY="vJySWYkE-6WQ3-V3AL-I2vbh2pM"
+export FAZE_API_KEY="your-api-key-here"
 export FAZE_ART_ID="1000"
 export FAZE_DEDUP_VULNS="true"
 ```
@@ -39,7 +39,7 @@ export FAZE_DEDUP_VULNS="true"
 **Option B: .env File**
 ```bash
 # Create config/.env in project root
-FAZE_API_KEY=vJySWYkE-6WQ3-V3AL-I2vbh2pM
+FAZE_API_KEY=your-api-key-here
 FAZE_ART_ID=1000
 FAZE_DEDUP_VULNS=true
 ```

@@ -28,14 +28,14 @@ cp -r addon-faze-agentic-red-team $SPLUNK_HOME/etc/deployment-apps/
 1. Go to **Settings → Data Inputs**
 2. Click **FAZE Agentic Red Team**
 3. Click **Create New Input** / **Edit**
-4. Enter API Key: `vJySWYkE-6WQ3-V3AL-I2vbh2pM`
+4. Enter API Key: `your-api-key-here`
 5. Leave ART ID as `1000` (default)
 6. Enable deduplication if desired
 7. Click **Save**
 
 **Via Environment Variables:**
 ```bash
-export FAZE_API_KEY="vJySWYkE-6WQ3-V3AL-I2vbh2pM"
+export FAZE_API_KEY="your-api-key-here"
 export FAZE_ART_ID="1000"
 export FAZE_DEDUP_VULNS="false"
 ```
@@ -43,7 +43,7 @@ export FAZE_DEDUP_VULNS="false"
 **Via .env File:**
 Create `config/.env`:
 ```
-FAZE_API_KEY=vJySWYkE-6WQ3-V3AL-I2vbh2pM
+FAZE_API_KEY=your-api-key-here
 FAZE_ART_ID=1000
 FAZE_DEDUP_VULNS=false
 ```
@@ -197,7 +197,7 @@ The add-on indexes data as CIM-compatible vulnerability events:
 1. **Settings** → **General Settings** → **Environment Variables**
 2. Add:
    ```
-   FAZE_API_KEY=vJySWYkE-6WQ3-V3AL-I2vbh2pM
+   FAZE_API_KEY=your-api-key-here
    FAZE_ART_ID=1000
    FAZE_DEDUP_VULNS=false
    ```

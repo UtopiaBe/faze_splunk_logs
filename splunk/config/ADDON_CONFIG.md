@@ -46,13 +46,13 @@ Deduplicated 222 duplicate entries
 
 **Without deduplication (default):**
 ```bash
-export FAZE_API_KEY="vJySWYkE-6WQ3-V3AL-I2vbh2pM"
+export FAZE_API_KEY="your-api-key-here"
 python3 bin/faze_security_addon.py
 ```
 
 **With deduplication enabled:**
 ```bash
-export FAZE_API_KEY="vJySWYkE-6WQ3-V3AL-I2vbh2pM"
+export FAZE_API_KEY="your-api-key-here"
 export FAZE_DEDUP_VULNS="true"
 python3 bin/faze_security_addon.py
 ```

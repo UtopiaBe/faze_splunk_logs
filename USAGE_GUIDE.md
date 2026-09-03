@@ -10,7 +10,7 @@
 
 2. **Set environment:**
    ```bash
-   export FAZE_API_KEY="vJySWYkE-6WQ3-V3AL-I2vbh2pM"
+   export FAZE_API_KEY="your-api-key-here"
    export FAZE_ART_ID="1000"
    export FAZE_DEDUP_VULNS="true"  # optional
    ```
@@ -81,7 +81,7 @@ python splunk/addons/faze_security_addon.py | \
 
 | Variable | Default | Options | Example |
 |----------|---------|---------|---------|
-| `FAZE_API_KEY` | - | Any valid key | `vJySWYkE-6WQ3...` |
+| `FAZE_API_KEY` | - | Any valid key | `your-api-key-here` |
 | `FAZE_API_URL` | `https://api.faze.security` | Any URL | `https://api.faze.security` |
 | `FAZE_ART_ID` | `1000` | Numeric ID | `1000` |
 | `FAZE_DEDUP_VULNS` | `false` | `true` or `false` | `true` |
