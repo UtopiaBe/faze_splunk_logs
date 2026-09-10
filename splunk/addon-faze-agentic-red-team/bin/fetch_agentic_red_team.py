@@ -36,7 +36,7 @@ class AgenticRedTeamAddonFetcher:
 
     def __init__(self, api_key: str, api_url: str = "https://api.faze.security"):
         self.api_key = api_key
-        self.api_url = api_url
+        self.api_url = os.getenv("FAZE_API_URL", api_url).rstrip("/")
         self.deduplicate = os.getenv("FAZE_DEDUP_VULNS", "false").lower() == "true"
         self.session = self._setup_session()
         self.vulns_count = 0

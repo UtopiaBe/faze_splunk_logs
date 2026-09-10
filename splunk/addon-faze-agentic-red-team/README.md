@@ -34,6 +34,7 @@ cp -r addon-faze-agentic-red-team $SPLUNK_HOME/etc/deployment-apps/
 export FAZE_API_KEY="your-api-key-here"
 export FAZE_ART_ID="1000"
 export FAZE_DEDUP_VULNS="true"
+export FAZE_API_URL="https://api.faze.security"
 ```
 
 **Option B: .env File**
@@ -71,6 +72,7 @@ $SPLUNK_HOME/bin/splunk restart
 | Variable | Required | Default | Example |
 |----------|----------|---------|---------|
 | `FAZE_API_KEY` | Yes | - | `vJySWYkE-6WQ3...` |
+| `FAZE_API_URL` | No | `https://api.faze.security` | FAZE Security API base URL |
 | `FAZE_ART_ID` | No | 1000 | `1000` |
 | `FAZE_DEDUP_VULNS` | No | false | `true` or `false` |
 
@@ -183,14 +185,14 @@ sourcetype="faze:agentic_red_team" severity="High" OR severity="Critical"
 3. **Verify API credentials:**
    ```bash
    export FAZE_API_KEY="your-key"
-   python bin/fetch_agentic_red_team.py
+   python bin/fetch_agentic_red_team_vulns.py
    ```
 
 ### API Connection Errors
 
 - Verify API key is correct: `echo $FAZE_API_KEY`
 - Check network connectivity: `curl https://api.faze.security`
-- Verify API URL in script: `grep "api_url" bin/fetch_agentic_red_team.py`
+- Verify API URL: `echo $FAZE_API_URL`
 
 ### Splunk Cloud Deployment
 
@@ -231,7 +233,7 @@ For Splunk Cloud deployments:
 For issues or questions:
 1. Check logs: `index=_internal source="*faze*"`
 2. Review configuration: `inputs.conf`, `props.conf`
-3. Test manually: `python bin/fetch_agentic_red_team.py`
+3. Test manually: `python bin/fetch_agentic_red_team_vulns.py`
 4. Verify API connectivity and credentials
 
 ## Version History
